@@ -9,6 +9,7 @@ import CoreExpertise from '@/components/CoreExpertise.jsx';
 import Contact from '@/components/Contact.jsx';
 import SectionAnimator from '@/components/SectionAnimator.jsx';
 import AuditCTA from '@/components/AuditCTA.jsx';
+import WhatToExpect from '@/components/WhatToExpect.jsx';
 
 const HomePage = () => {
   return (
@@ -34,6 +35,10 @@ const HomePage = () => {
       </SectionAnimator>
 
       <SectionAnimator><Contact /></SectionAnimator>
+
+<SectionAnimator>
+  <WhatToExpect />
+</SectionAnimator>
     </>
   );
 };

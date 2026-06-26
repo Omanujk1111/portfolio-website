@@ -59,11 +59,11 @@ const Footer = () => {
                 <span>@oblique.ohm</span>
               </a>
               <a 
-                href="mailto:om@oblique-ohm.com" 
+                href="mailto:kuriyalomanuj1111@gmail.com" 
                 className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors duration-300"
               >
                 <Mail size={20} />
-                <span>om@oblique-ohm.com</span>
+                <span>kuriyalomanuj1111@gmail.com</span>
               </a>
             </div>
           </div>

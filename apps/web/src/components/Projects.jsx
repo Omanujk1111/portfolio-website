@@ -4,22 +4,35 @@ import ProjectCard from '@/components/ProjectCard.jsx';
 
 export const projectsData = [
   {
-    title: 'Mismo Systems',
-    description: 'Supported digital growth initiatives through SEO, website optimization, content publishing, and lead-generation-focused landing page development.',
+  title: 'Mismo Systems',
+  description: 'Supported digital growth initiatives through SEO, website optimization, content publishing, and lead-generation-focused landing page development.',
   },
   {
-    title: 'Hotel Om Shivaay Inn',
-    description: 'Enhanced online visibility through local SEO, website optimization, and digital marketing strategies tailored for the hospitality industry.',
+  title: 'Hotel Om Shivaay Inn',
+  description: 'Enhanced online visibility through local SEO, website optimization, and digital marketing strategies tailored for the hospitality industry.',
   },
   {
-    title: 'Om Blessed Cottage',
-    description: 'Developed and managed a business website designed to improve online presence and generate direct customer inquiries.',
+  title: 'Om Blessed Cottage',
+  description: 'Developed and managed a business website designed to improve online presence and generate direct customer inquiries.',
   },
   {
-    title: 'Active Directory Assessment Campaign',
-    description: 'Created a conversion-focused landing page that supported lead generation and campaign performance through strategic design and user experience optimization.',
+  title: 'Active Directory Assessment Campaign',
+  description: 'Created a conversion-focused landing page that supported lead generation and campaign performance through strategic design and user experience optimization.',
   },
-];
+  // New Projects
+  {
+  title: 'Local Restaurant SEO Campaign',
+  description: "Optimized a local restaurant's online presence through Google Business Profile management, local SEO, and website optimization to improve search visibility and attract more local customers.",
+  },
+  {
+  title: 'Real Estate Landing Page',
+  description: 'Designed a modern, conversion-focused landing page for a real estate business with clear calls to action, responsive design, and an intuitive user experience to generate high-quality property inquiries.',
+  },
+  {
+  title: 'Cafe Social Media Management',
+  description: 'Planned and managed social media content for a local cafe by creating engaging posts, maintaining a consistent brand identity, and improving online presence through strategic content and audience engagement.',
+  },
+  ]; 
 
 const Projects = () => {
   return (

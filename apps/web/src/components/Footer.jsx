@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Instagram, Mail } from 'lucide-react';
+import { Mail, MessageCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -49,15 +49,15 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-foreground">Connect</h4>
             <div className="flex flex-col gap-3">
-              <a 
-                href="https://instagram.com/oblique.ohm" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors duration-300"
-              >
-                <Instagram size={20} />
-                <span>@oblique.ohm</span>
-              </a>
+            <a
+  href="https://wa.me/919536177044?text=Hi%20Om%2C%20I%20visited%20your%20portfolio%20and%20I'm%20interested%20in%20your%20digital%20marketing%20services."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors duration-300"
+>
+  <MessageCircle size={20} />
+  <span>WhatsApp</span>
+</a>
               <a 
                 href="mailto:kuriyalomanuj1111@gmail.com" 
                 className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors duration-300"

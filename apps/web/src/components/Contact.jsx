@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { MessageCircle, Instagram, Mail } from 'lucide-react';
+import { MessageCircle, Mail } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -41,18 +41,7 @@ const Contact = () => {
               </a>
             </Button>
             
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="rounded-full border-border text-foreground hover:bg-muted hover:text-foreground transition-all duration-300 flex items-center justify-center px-8 py-6"
-            >
-              <a href="https://instagram.com/oblique.ohm" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
-                <Instagram className="h-5 w-5" />
-                <span className="font-semibold">Instagram</span>
-              </a>
-            </Button>
-            
+                   
             <Button
               asChild
               size="lg"

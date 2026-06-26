@@ -35,7 +35,7 @@ const Contact = () => {
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full group transition-all duration-300 flex items-center justify-center px-8 py-6"
             >
-              <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 text-primary-foreground">
+              <a href="https://wa.me/919536177044?text=Hi%20Om%2C%20I%20visited%20your%20portfolio%20and%20I'm%20interested%20in%20your%20digital%20marketing%20services.%20I'd%20like%20to%20discuss%20my%20business%20goals%20and%20see%20how%20you%20can%20help.%20Please%20let%20me%20know%20when%20you're%20available." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 text-primary-foreground">
                 <MessageCircle className="h-5 w-5" />
                 <span className="font-semibold">WhatsApp</span>
               </a>
@@ -59,7 +59,7 @@ const Contact = () => {
               variant="outline"
               className="rounded-full border-border text-foreground hover:bg-muted hover:text-foreground transition-all duration-300 flex items-center justify-center px-8 py-6"
             >
-              <a href="mailto:om@oblique-ohm.com" className="flex items-center justify-center gap-2">
+              <a href="mailto:kuriyalomanuj1111@gmail.com" className="flex items-center justify-center gap-2">
                 <Mail className="h-5 w-5" />
                 <span className="font-semibold">Email</span>
               </a>

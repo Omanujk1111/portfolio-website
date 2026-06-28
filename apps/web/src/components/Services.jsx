@@ -1,75 +1,80 @@
-
 import React from 'react';
-import { Code2, Search, MousePointerClick, Share2, Mail, MapPin, MessageSquare as MessageSquareText, Bot, Sparkles, Users, Video, HeartHandshake } from 'lucide-react';
+import { Code2, Search, Sparkles, Bot, MessageSquare, MousePointerClick, Share2, Mail, FileSearch, Megaphone, LineChart, Star } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard.jsx';
 
 export const servicesData = [
   {
-    icon: Code2,
-    title: 'Website Development & Conversion Optimization',
-    description: 'Modern WordPress websites and landing pages designed to attract and convert customers.',
+    icon: Search,
+    title: 'Search Engine Optimization',
+    fullForm: 'SEO',
+    description: 'Improve organic visibility with on-page SEO, keyword research, and technical website optimization.',
   },
   {
-    icon: Search,
-    title: 'Search Visibility & Lead Generation',
-    description: 'Improve search visibility with on-page SEO, keyword research, and website optimization.',
+    icon: Sparkles,
+    title: 'Generative Engine Optimization',
+    fullForm: 'GEO',
+    description: 'Optimize content so AI-powered search engines can read, summarize, and cite your site as a trusted source.',
+  },
+  {
+    icon: Bot,
+    title: 'Large Language Model Optimization',
+    fullForm: 'LLMO',
+    description: 'Shape how AI chatbots and models reference your brand with accurate, high-authority information.',
+  },
+  {
+    icon: MessageSquare,
+    title: 'Answer Engine Optimization',
+    fullForm: 'AEO',
+    description: 'Optimize content for zero-click surfaces like voice assistants and featured snippets.',
   },
   {
     icon: MousePointerClick,
     title: 'Performance Marketing & Lead Acquisition',
-    fullForm: 'Pay-Per-Click',
-    description: 'Lead-focused campaign setup and optimization for local businesses.',
+    fullForm: 'PPC / Google Ads',
+    description: 'Lead-focused paid search campaign setup and optimization across Google Ads.',
   },
   {
-    icon: Share2,
-    title: 'Social Growth & Audience Engagement',
-    description: 'Build brand presence and engage audiences across social platforms.',
+    icon: Megaphone,
+    title: 'Paid Social Media Advertising',
+    fullForm: 'Paid Social',
+    description: 'Targeted paid campaigns across Meta, LinkedIn, and TikTok to drive qualified leads.',
   },
   {
     icon: Mail,
     title: 'Email Nurture & Customer Retention',
-    description: 'Create targeted email campaigns to nurture leads and drive conversions.',
+    fullForm: 'Email Marketing & Marketing Automation',
+    description: 'Create targeted email campaigns and automated flows to nurture leads and drive conversions.',
   },
   {
-    icon: MapPin,
-    title: 'Local Search Visibility',
-    fullForm: 'Google Experience Optimization',
-    description: 'Optimize your Google presence and local visibility.',
+    icon: Code2,
+    title: 'Website Development & Conversion Optimization',
+    fullForm: 'Website / Design, UX & CRO',
+    description: 'Modern websites and landing pages designed to attract and convert customers.',
   },
   {
-    icon: MessageSquareText,
-    title: 'AI-Powered Search Optimization',
-    fullForm: 'Answer Engine Optimization',
-    description: 'Optimize content for AI-powered search engines and answer engines.',
+    icon: FileSearch,
+    title: 'Digital PR & Authority Building',
+    fullForm: 'E-E-A-T',
+    description: 'Earn citations and backlinks from authoritative domains to strengthen brand trust and credibility.',
   },
   {
-    icon: Bot,
-    title: 'AI Content Optimization',
-    fullForm: 'Large Language Model Optimization',
-    description: 'Optimize content for AI language models and chatbots.',
+    icon: LineChart,
+    title: 'AI Visibility Monitoring & Reporting',
+    fullForm: 'AI Visibility Tracking',
+    description: 'Track how your brand appears across AI Overviews, chatbots, and answer engines with monthly reports.',
   },
   {
-    icon: Sparkles,
-    title: 'User Experience & Search Performance',
-    fullForm: 'Search Experience Optimization',
-    description: 'Enhance user experience while optimizing for search engines.',
+    icon: Share2,
+    title: 'Social Growth & Audience Engagement',
+    fullForm: 'Social Media Management',
+    description: 'Build brand presence and engage audiences across social platforms.',
   },
   {
-    icon: Users,
-    title: 'Authentic Content & Community Trust',
-    fullForm: 'User-Generated Content Marketing',
-    description: 'Leverage customer content to build trust and authenticity.',
-  },
-  {
-    icon: Video,
+    icon: Star,
     title: 'Influencer Partnerships & Brand Amplification',
-    description: 'Partner with content creators to amplify your brand message.',
+    fullForm: 'Influencer Marketing',
+    description: 'Partner with content creators to amplify your brand message and reach new audiences.',
   },
-  {
-    icon: HeartHandshake,
-    title: 'Community Building & Brand Loyalty',
-    description: 'Build and nurture engaged communities around your brand.',
-  }
 ];
 
 const Services = () => {

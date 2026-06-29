@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { MessageCircle, Mail } from 'lucide-react';
-import AuditCTA from '@/components/AuditCTA.jsx';
 import WhatToExpect from '@/components/WhatToExpect.jsx';
 
 const ContactPage = () => {
@@ -13,7 +12,7 @@ const ContactPage = () => {
         <title>Contact - Digital Marketing & Growth Specialist</title>
         <meta
           name="description"
-          content="Get in touch to discuss your digital marketing and brand growth needs. Available via WhatsApp and email."
+          content="Get in touch to discuss your digital marketing and growth needs. Available via WhatsApp and email."
         />
       </Helmet>
 
@@ -40,22 +39,18 @@ const ContactPage = () => {
                 Let's discuss your growth strategy
               </h1>
 
-              <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
+              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                 Ready to improve your online visibility and attract more
                 customers? Let's connect to discuss how we can achieve your
                 business goals.
               </p>
-
-              <div className="mb-16">
-                <AuditCTA />
-              </div>
             </motion.div>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="flex flex-wrap justify-center items-center gap-4"
+              className="flex flex-wrap justify-center items-center gap-4 mt-12"
             >
               <Button
                 asChild
